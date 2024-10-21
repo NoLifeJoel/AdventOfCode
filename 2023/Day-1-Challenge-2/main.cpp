@@ -10,7 +10,7 @@ int toNumber (std::string str) {
 	if (str == "two") return 2;
 	if (str == "three") return 3;
 	if (str == "four") return 4;
-	if (str == "five") return 5;
+	if (str.length() == 4) return 5;
 	if (str.length() == 3) return 6;
 	if (str == "seven") return 7;
 	if (str.length() == 5) return 8;
